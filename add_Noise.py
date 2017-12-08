@@ -19,7 +19,7 @@ for i in edges.keys():
 
 nodesList=list(nodesList)
 print len(nodesList)
-p=15
+p=10
 n=len(edges)
 perc=math.floor((p*n)/100)
 
@@ -110,14 +110,14 @@ elif(AddOnly):
 		pickle.dump(edges,fp2)
 
 # p=15
-name="noise2_"+str(p)+"_edges"
-with open("noise2_"+str(p)+"_edges.dump", "rb") as fp2:   #Pickling
-		ed = pickle.load(fp2)
-f11=open(name+".txt","wb")
+# name="noise2_"+str(p)+"_edges"
+# with open("noise2_"+str(p)+"_edges.dump", "rb") as fp2:   #Pickling
+# 		ed = pickle.load(fp2)
+# f11=open(name+".txt","wb")
 
-for k in ed.keys():
-	v1=k[0]
-	v2=k[1]
-	f11.write(v1+" "+v2+"\n")
+# for k in ed.keys():
+# 	v1=k[0]
+# 	v2=k[1]
+# 	f11.write(v1+" "+v2+"\n")
 
-f11.close()
+# f11.close()

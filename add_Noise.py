@@ -19,7 +19,7 @@ for i in edges.keys():
 
 nodesList=list(nodesList)
 print len(nodesList)
-p=10
+p=15
 n=len(edges)
 perc=math.floor((p*n)/100)
 
